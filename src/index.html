@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <title>KingTech</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <section>
+      <input type="checkbox" id="check" />
+      <header id="header">
+        <h2><a href="#" class="logo">KingTech</a></h2>
+        <div class="navigation">
+          <a href="#about">About</a>
+          <a href="#info">Info</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <label for="check">
+          <i class="fas fa-bars menu-btn"></i>
+          <i class="fas fa-times close-btn"></i>
+        </label>
+      </header>
+      <div class="content">
+        <div class="about" id="about">
+          <h2>A cerca de <br /><span>Nosotros</span></h2>
+          <p>
+            ¡Bienvenido a KingTech! Somos una empresa innovadora y apasionada
+            por la tecnología, dedicada a ofrecer soluciones completas para
+            todas tus necesidades tecnológicas. Con años de experiencia en el
+            sector, nos especializamos en el mantenimiento de computadoras,
+            desarrollo de páginas web y mucho más. Nuestra misión es brindar un
+            servicio excepcional y personalizado para que tus dispositivos y
+            proyectos digitales funcionen de manera óptima.
+          </p>
+        </div>
+        <!--<div class="image-wrapper">
+          <img
+            src="https://static.vecteezy.com/system/resources/previews/025/463/773/original/hacker-logo-design-a-mysterious-and-dangerous-hacker-illustration-vector.jpg"
+            alt="image-of-reino"
+            loading="lazy"
+          />
+          <img
+            src="https://yt3.googleusercontent.com/B7F-2E2a4T3OfVfWqE2eQ58PSLOVcsdBYwFE9PTJUXB0313CTxMHcxplwJaveHZijvCWRthb7Q=s900-c-k-c0x00ffffff-no-rj"
+            alt="image-of-kingsixto"
+          />
+        </div>-->
+        <div class="info" id="info">
+          <h2>Información</h2>
+          <p>
+            En KingTech, entendemos la importancia de la tecnología en tu vida
+            diaria y en tu negocio. Nos comprometemos a mantenerte a la
+            vanguardia con servicios de calidad y atención al detalle. Desde la
+            reparación de tu computadora hasta la creación de una presencia en
+            línea impactante, estamos aquí para ayudarte a aprovechar al máximo
+            tus recursos tecnológicos.
+          </p>
+          <div class="video-info" id="video-info">
+            <iframe
+              src="https://www.youtube.com/embed/2-wCGvPELa0?si=JTlv15eThaGY1Dp5"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="services" id="services">
+          <h2>Servicios</h2>
+          <h3>Mantenimiento de <span>Computadoras</span></h3>
+          <ul>
+            <li>Diagnóstico y reparación de hardware</li>
+            <li>Limpieza y optimización del sistema</li>
+            <li>Actualización de componentes y software</li>
+          </ul>
+          <h3>Desarrollo de <span>Páginas Web</span></h3>
+          <ul>
+            <li>Diseño web personalizado y adaptativo</li>
+            <li>Desarrollo de sitios web y aplicaciones</li>
+            <li>Optimización SEO y marketing digital</li>
+          </ul>
+          <h3>Asesoramiento <span>Tecnológico</span></h3>
+          <ul>
+            <li>Consultoría para empresas y particulares</li>
+            <li>Implementación de soluciones IT</li>
+            <li>Formación y soporte técnico</li>
+          </ul>
+          <p>
+            En KingTech, utilizamos las últimas tecnologías y mejores prácticas
+            para garantizar que recibas un servicio de primera clase. Nuestro
+            equipo de expertos está listo para ayudarte a resolver cualquier
+            problema y llevar tus proyectos al siguiente nivel.
+          </p>
+        </div>
+        <div class="contact" id="contact">
+          <h2>Contacta con <br /><span>Nosotros</span></h2>
+          <p>
+            ¡Nos encantaría saber de ti! Si tienes alguna pregunta, necesitas
+            soporte técnico o deseas obtener un presupuesto para tu próximo
+            proyecto, no dudes en ponerte en contacto con nosotros.
+          </p>
+          <h3><span>Información de Contacto</span></h3>
+          <ul>
+            <li>Teléfono: [Tu número de teléfono]</li>
+            <li>Correo Electrónico: [Tu correo electrónico]</li>
+          </ul>
+          <div class="form-discounts">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+              <p id="form-comment">
+                Manda tu email, para conocer nuestras ofertas y promociones
+                disponibles.
+              </p>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="e.g. alex@smith.com"
+                size="30"
+                required
+              />
+              <input type="submit" id="submit" />
+            </form>
+          </div>
+          <p>
+            También puedes seguirnos en nuestras redes sociales para estar al
+            día con nuestras últimas noticias y ofertas especiales. ¡Estamos
+            aquí para ayudarte a crecer y triunfar en el mundo digital!
+          </p>
+        </div>
+      </div>
+      <div class="media-icons">
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+      </div>
+    </section>
+  </body>
+</html>
